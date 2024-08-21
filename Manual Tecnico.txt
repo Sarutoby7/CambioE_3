@@ -1,0 +1,43 @@
+Manual Técnico:
+
+HTML (index.html):
+1.	Estructura Básica:
+o	Sección Principal: La estructura HTML contiene una sección (<section>) con un título (<h1>),
+    un botón (<button>) que permite alternar la visibilidad de un párrafo (<p>) ubicado en un artículo (<article>).
+o	Botón de Acción: El botón tiene un texto que indica la acción a realizar (mostrar u ocultar el párrafo).
+o	Párrafo de Ejemplo: El párrafo es el elemento cuyo estado de visibilidad será alterado
+    al hacer clic en el botón.
+
+CSS (estilos.css):
+1.	Estilos Globales:
+o	Cuerpo de la Página: El body tiene una fuente estándar (Arial), 
+    está centrado con texto alineado y tiene un color de fondo verde.
+2.	Estilos Específicos:
+o	Título (h1): El título se estiliza con un color oscuro para destacarse.
+o	Sección Principal (section): La sección tiene un fondo blanco, bordes redondeados,
+    y una sombra suave para dar un aspecto de tarjeta.
+o	Botón (button): El botón tiene márgenes y padding para un espaciado adecuado,
+    bordes redondeados y un cursor pointer para indicar que es clicable.
+o	Párrafo de Texto (#texto p): El párrafo tiene un tamaño de fuente de 16px y
+    un color de texto oscuro para facilitar la lectura.
+
+JavaScript (script.js):
+1.	Obtención de Elementos del DOM:
+o	Variables: Se utilizan dos variables (botonToggleVisibilidad y parrafoTexto)
+    para almacenar las referencias al botón y al párrafo de texto, respectivamente. 
+    Estas se obtienen mediante getElementById.
+2.	Evento click:
+o	EventListener: Se añade un eventListener al botón que escucha el evento click. Al hacer clic,
+    se verifica el estado actual del párrafo (si está visible o no) usando la propiedad style.display.
+3.	Cambio de Estilo:
+o	Alternar Visibilidad: Si el párrafo está visible (display: block),
+    se oculta (display: none) y el texto del botón cambia a "Mostrar Texto".
+    Si el párrafo está oculto, se vuelve visible y el texto del botón cambia a "Ocultar Texto".
+
+Conclusión:
+Este ejercicio es útil para aprender a manejar la visibilidad de elementos en una página web usando JavaScript.
+Además, refuerza el concepto de manipulación del DOM y la respuesta a eventos del usuario,
+permitiendo una interacción dinámica con la interfaz.
+
+Github:
+
